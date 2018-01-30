@@ -28,7 +28,7 @@ try:
     target_file = sys.argv[1]
     cgi_file = sys.argv[2]
 
-    concurrent = 100
+    concurrent = 1
     targets = open(target_file, "r")
 
 except IndexError:
